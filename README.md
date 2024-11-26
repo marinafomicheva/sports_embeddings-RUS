@@ -1,1 +1,1 @@
-# Sports topology: exploring word embeddings-RUS
+# Sports topology: exploring word embeddings in Russian
