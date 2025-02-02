@@ -1,20 +1,19 @@
-# Sports topology: exploring word embeddings in Russian
+# Sports Topology: Exploring Word Embeddings in Russian
 
-# Overview
-This project explores the organization and relationships of Russian sports names within a semantic space using contextualized embeddings. 
+## Overview
+This project analyzes the organization and relationships among Russian sports terminology using word embeddings. Our goal is to explore how sports names cluster within a semantic space, providing insights into their contextual relationships.
 
-# Dataset
-The dataset consists of 100 manually collected Russian sports names categorized into 13 different types, including raquet sports, combat sports, animal sports, extreme sports, and water sports.
+## Dataset
+Our dataset includes 100 Russian sports names, manually curated and classified into 13 distinct categories such as racquet sports, combat sports, animal sports, extreme sports, and water sports.
 
-# Methodology
-We employ the following techniques:
+## Methodology
+We used several techniques to examine and visualize the semantic space of sports names:
 
-Embedding Extraction: Using contextualized embeddings from RuBERT to represent sports names.
-Cosine Similarity: Calculating intra-group similarities to understand the closeness of sports within the same category.
-Dimensionality Reduction: Visualizing the data using 2D and 3D graphs to identify distinct clusters.
-Clustering Analysis: Applying methods like the Elbow Method and Silhouette Score to determine optimal cluster counts.
-Autoencoder: Utilizing an autoencoder for further dimensionality reduction and clustering.
+- **Embedding Extraction:** Used contextualized embeddings from RuBERT to accurately represent sports names.
+- **Cosine Similarity:** Calculated intra-category similarities to assess the closeness of sports within the same type.
+- **Dimensionality Reduction:** Employed techniques like PCA and t-SNE for 2D and 3D visualization of the sports names, facilitating the identification of distinct clusters.
+- **Clustering Analysis:** Applied clustering algorithms and evaluating methods such as the Elbow Method and Silhouette Score to determine the optimal number of clusters.
+- **Autoencoder:** Using an autoencoder to enhance dimensionality reduction and clustering accuracy.
 
-# Results
-Sports are meaningfully grouped based on their semantic similarities with high cosine similarities within categories.
-Dimensionality reduction and clustering reveal distinct groupings that correspond well with the predefined categories.
+## Results
+The analysis demonstrates that sports names are meaningfully grouped based on their semantic similarities, with high cosine similarity scores within each category. The application of dimensionality reduction and clustering techniques successfully reveals distinct groupings, aligning closely with the predefined categories.
