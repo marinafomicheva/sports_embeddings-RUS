@@ -4,7 +4,7 @@
 This project analyzes the organization and relationships among Russian sports terminology using word embeddings. Our goal is to explore how sports names cluster within a semantic space, providing insights into their contextual relationships.
 
 ## Dataset
-Our dataset includes 100 Russian sports names, manually curated and classified into 13 distinct categories such as racquet sports, combat sports, animal sports, extreme sports, and water sports.
+The dataset includes 100 Russian sports names, manually curated and classified into 13 distinct categories such as racquet sports, combat sports, animal sports, extreme sports, and water sports.
 
 ## Methodology
 We used several techniques to examine and visualize the semantic space of sports names:
